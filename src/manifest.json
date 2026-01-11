@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Perplexity Citation Remover",
+  "version": "1.0.0",
+  "description": "Remove inline citations from Perplexity.AI answers on demand",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.perplexity.ai/*",
+    "https://perplexity.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Click to remove inline citations"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

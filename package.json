@@ -1,0 +1,13 @@
+{
+  "name": "perplexity-citation-remover",
+  "version": "1.0.0",
+  "description": "Chrome extension to remove inline citations from Perplexity.AI",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/popup.js --bundle --outfile=build/extension/popup.js --minify --target=chrome90",
+    "dev": "esbuild src/popup.js --bundle --outfile=build/extension/popup.js --target=chrome90 --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}
