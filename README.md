@@ -1,6 +1,9 @@
-# Perplexity Citation Remover
+# Perplexity Citation Remover (Chrome + Firefox)
 
-A lightweight Chrome extension that removes inline citations from Perplexity.AI answers on demand with a single click.
+This repository contains build files and setup for a lightweight Chrome extension that removes inline citations from Perplexity.AI answers on demand with a single click.
+
+The **FIREFOX** version can be found in the subdirectory `firefox_version` and can be installed
+as plugin by simply copying the directory to a convenient location and loading it into firefox.
 
 ## Features
 

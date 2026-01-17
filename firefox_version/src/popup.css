@@ -1,0 +1,48 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 15px;
+}
+h1 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+.status {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+.status .enabled {
+    color: green;
+    font-weight: bold;
+}
+.status .disabled {
+    color: red;
+    font-weight: bold;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #0056b3;
+}
+.info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
